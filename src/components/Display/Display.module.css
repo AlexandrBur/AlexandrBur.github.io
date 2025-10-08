@@ -1,0 +1,9 @@
+@import url('../../styles/variables.css');
+
+.calculator__input {
+  width: 250px;
+  height: 50px;
+  padding: 20px;
+  text-align: right;
+  border-radius: var(--border-radius);
+}

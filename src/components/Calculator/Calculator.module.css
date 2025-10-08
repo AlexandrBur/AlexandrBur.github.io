@@ -1,0 +1,15 @@
+@import url('../../styles/variables.css');
+
+.calculator {
+  width: 300px;
+  height: 400px;
+  margin: 50px auto;
+  border: 2px solid lightgray;
+  border-radius: var(--border-radius);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap);
+}
