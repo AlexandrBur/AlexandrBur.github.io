@@ -1,0 +1,7 @@
+@import url('../../styles/variables.css');
+
+.calculator__keyboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: var(--gap);
+}
