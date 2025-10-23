@@ -1,12 +1,16 @@
-import lables from '../../utils/lables';
+import lables from '../../utils/getLables';
 import Button from '../Button/Button';
 import styles from './Keyboard.module.css';
 
-const Keyboard = () => {
+const Keyboard = ({ handleClick }) => {
   return (
     <div className={styles.calculator__keyboard}>
       {lables.map((elem) => (
-        <Button key={elem}>{elem}</Button>
+        <Button
+          key={elem}
+          handleClick={handleClick}>
+          {elem}
+        </Button>
       ))}
     </div>
   );
