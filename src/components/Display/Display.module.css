@@ -1,9 +1,10 @@
 @import url('../../styles/variables.css');
 
-.calculator__input {
+.calculator__display {
   width: 250px;
   height: 50px;
-  padding: 20px;
+  padding: 10px;
   text-align: right;
   border-radius: var(--border-radius);
+  box-shadow: var(--shadow-inset);
 }

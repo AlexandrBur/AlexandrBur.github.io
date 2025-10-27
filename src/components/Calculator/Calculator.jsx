@@ -1,21 +1,14 @@
-import { useReducer, useState } from 'react';
 import Display from '../Display/Display';
 import Keyboard from '../Keyboard/Keyboard';
 import styles from './Calculator.module.css';
-import { initialState, reducer } from '../reducer';
+import { useDisplayValue } from '../../hooks/useDisplayValue';
 
 const Calculator = () => {
-  const [state, dispatch] = useReducer(reducer, initialState);
-
-  const handleClick = (elem) => {
-    dispatch({ type: elem });
-  };
-
-  console.log(state);
+  const [displayValue, handleClick] = useDisplayValue();
 
   return (
     <div className={styles.calculator}>
-      <Display currValue={state.currValue} />
+      <Display displayValue={displayValue} />
       <Keyboard handleClick={handleClick} />
     </div>
   );

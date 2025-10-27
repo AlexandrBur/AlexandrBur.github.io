@@ -1,19 +1,22 @@
-import lables from '../../utils/getLables';
+import { memo } from 'react';
+import { labels } from '../../utils/keyboardLayout.js';
 import Button from '../Button/Button';
 import styles from './Keyboard.module.css';
 
-const Keyboard = ({ handleClick }) => {
+const Keyboard = memo((props) => {
+  const { handleClick } = props;
+  console.log('render Keyboard');
   return (
     <div className={styles.calculator__keyboard}>
-      {lables.map((elem) => (
+      {labels.map((label) => (
         <Button
-          key={elem}
+          key={label}
           handleClick={handleClick}>
-          {elem}
+          {label}
         </Button>
       ))}
     </div>
   );
-};
+});
 
 export default Keyboard;

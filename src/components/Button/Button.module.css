@@ -5,8 +5,14 @@
   height: 50px;
   border-radius: var(--border-radius);
   opacity: 0.5;
+  box-shadow: var(--shadow-light);
+  transition: all 0.1s;
 }
 
 .button:hover {
   opacity: 1;
+}
+.button:active {
+    transform: translate(1px, 1px);
+    box-shadow: var(--shadow-inset);
 }

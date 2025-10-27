@@ -1,15 +1,16 @@
 import styles from './Display.module.css';
 
-const Display = ({ currValue }) => {
+const Display = (props) => {
+  const { displayValue } = props;
+  console.log('render Display');
   return (
-    <div className="calculator__display">
-      <input
-        className={styles.calculator__input}
-        type="text"
-        value={currValue}
-        disabled
-      />
-    </div>
+    <input
+      className={styles.calculator__display}
+      type="text"
+      value={displayValue}
+      disabled
+      readOnly
+    />
   );
 };
 

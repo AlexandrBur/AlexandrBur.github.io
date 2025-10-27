@@ -1,4 +1,9 @@
 :root {
   --border-radius: 8px;
-  --gap: 16px
+  --gap: 16px;
+
+  --shadow-light: 0 2px 5px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 4px 10px rgba(0, 0, 0, 0.15);
+  --shadow-strong: 0 6px 15px rgba(0, 0, 0, 0.2);
+  --shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
