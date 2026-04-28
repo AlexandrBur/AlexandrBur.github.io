@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Зеленая гармошка LVT",
+    "thickness_mm": 1.5,
+    "size": "1050 на 500 мм",
+    "area_per_pack_sqm": 10.5,
+    "sheets_per_pack": 20,
+    "price_per_sqm_rub": 120
+  },
+  {
+    "name": "Розовая гармошка перфорированная",
+    "thickness_mm": 1.8,
+    "size": "1050 на 500 мм",
+    "area_per_pack_sqm": 8.4,
+    "sheets_per_pack": 16,
+    "price_per_sqm_rub": 120
+  },
+  {
+    "name": "Оранжевая гармошка",
+    "thickness_mm": 3,
+    "size": "1050 на 500 мм",
+    "area_per_pack_sqm": 10.5,
+    "sheets_per_pack": 20,
+    "price_per_sqm_rub": 80
+  },
+  {
+    "name": "Желтая гармошка",
+    "thickness_mm": 2,
+    "size": "1050 на 500 мм",
+    "area_per_pack_sqm": 10.5,
+    "sheets_per_pack": 20,
+    "price_per_sqm_rub": 100
+  },
+  {
+    "name": "Зеленая листовая",
+    "thickness_mm": 3,
+    "size": "1000 на 500 мм",
+    "area_per_pack_sqm": 5,
+    "sheets_per_pack": 10,
+    "price_per_sqm_rub": 80
+  }
+]
